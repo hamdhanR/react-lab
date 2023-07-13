@@ -1,0 +1,47 @@
+.startPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+.btn1 {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border: 2px solid #008cba;
+}
+
+.btn1:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginPage > div {
+  border: 2px black solid;
+  padding: 30px;
+}
+
+.button5 {
+  background-color: #555555;
+  border: 2px solid #555555;
+}
+
+.logout1 {
+  background-color: #f44336;
+  border: 2px solid #f44336;
+}
